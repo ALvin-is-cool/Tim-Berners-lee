@@ -47,7 +47,7 @@ h1 {
 h2 {
     font-family: fantasy;
     font-size: 30px;
-    font-weight:10;
+    font-weight: 10;
     line-height: 1.5;
 }
 
@@ -59,7 +59,7 @@ h2 {
 #bio {
     padding: 50px;
     font-size: 10px;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 p {
@@ -97,11 +97,25 @@ p {
 
 }
 
-html{scroll-behavior: smooth;
-    
-    
-}
-    
-    
-    
+html {
+    scroll-behavior: smooth;
 
+
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 80%;
+}
+
+.contact1 h3 {
+    display: inline;
+}
